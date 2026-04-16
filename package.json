@@ -1,0 +1,14 @@
+{
+  "name": "railway-contractor-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "mkdir -p dist && cp *.html *.css *.js dist/",
+    "start": "npx serve dist -p 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
